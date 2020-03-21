@@ -1,0 +1,43 @@
+############
+ZADANIE 1: #
+############
+Dla przykladu 1.
+Obliczyc mozemy 2 punkty rownowagi, jest to xr=0 i xr=2,
+pierwszy z nich xr=0 jest lokalnie asymptotycznie stabilny, jego obszar atrakcji to (-inf;2),
+punkt xr=2 jest niestabilny
+
+Dla przykladu nr. 2
+Punktem rownowagi jest xr = [0, 0], jest on lokalnie asymptotycznie stabilny
+jego przedzial atrakcji (0;inf). Stabilnosc wystepuje dla warunków poczatkowych takich,
+ze skladowa x1 wektora wartosci pcozatkowej jest nieujemna.
+
+Dla przykladu 3.
+Punktami rownowagi sa xr1=[0,0], oraz xr1=[-2/3,0].
+xr1 jest niestabilny, trajektorie do niego nie zbiegaja,
+xr2 jest lokalnie asymptotycznie stabnilny, sa trajektorie ktore do niego zbiegaja
+
+
+############
+ZADANIE 2: #
+############
+Dla epsilon = 0 punkt rownowagi xr=0 jest jedyny i jest wtedy globalnie asymptotycznie stabilny.
+Wraz ze wzrostem wartosci epsilon drugi punkt rownowagi zbliza sie do pierwszego punktu rownowagi dla eps = 0.5 jest tak jakw  cwiczeniu 1, pozniej wartosc niestabilnego punktu zbliza sie do xr=0, zmniejszajac tym samym przedzial atrakcji dla xr=0
+
+
+############
+ZADANIE 3: #
+############
+Przy niespelnionych zalozeniach twierdzenia Grobmana Hartmana, czyli przy braku hiperbolicznosci trajektorie nie sa takie jak pierwotne przed linearyzacja, na wykresie przestrzennym mozemy zauwazyc ze sprawia to wrazenie splaszczonego do jednej zmiennej wykresu pierwotnego. 
+Splaszczenie wystepuje na roznych plaszczyznach, tych gdzie mamy wartosci poczatkowe.
+
+
+############
+ZADANIE 4: #
+############
+W tym zadaniu celem jest pokazac jak wyglada trajektoria zlinearyzowanego systemu wokol punktow ktore sa zgodne z twierdzeniem Grobmana Hartmana. 
+Na wykresach punkt rownowagi zaznaczony jest blekitna gwiazdka, trajektorie orginalne na czerwono a a zlinearyzowane trajektoriena niebiesko. 
+Jak widac system po zlinearyzowaniu poniewaz spelnia warunki, ma bardzo zblizone w okolicy tych punktów trajektorie do tych ktore sa bez linearyzacji. 
+Co dowodzi slusznosci tego twierdzenia, co mozemy porownac z poprzednim cwiczeniem gdzie twierdzenie to nie bylo spelnione.
+
+
+

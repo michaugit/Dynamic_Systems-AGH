@@ -1,0 +1,57 @@
+=======================
+ZAD 1 - Czêstotliwoœæ =
+=======================
+Analizujac wynikowy uzyskany wykres, podstawiajac rozne Amplitudy i Czestotliwosci mozemy zauwazyc, ze amplituda fali, ktora zostala poddana transmitacji
+zalezy od zadanej na poczatku czestotliwosci.
+Zmiana wartosci Amplitudy zmienia amplitude wejsciowego sygnalu sinusoidalnego.
+Poza zmianami amplitudy, mozna zauwazyc minimalne przesuniecie fazowe.
+
+Podczas zwiêkszania czêstotliwoœci w zakresie 1-5 amplituda stanu zwiêksza siê, dla czêstotliwoœci wiêkszych jak 5 amplituda zaczyna maleæ (podczas zwiêkszania czêstotliwoœci dla liczb wiêkszych od 5, na przyk³ad gdy zwiêkszamy czêstotliwoœæ z 7 na 10 — aplituda stanu zmaleje). Podczas zmiany czêstotliwoœci zmienia siê równie¿ faza.
+
+
+====================
+ZAD 2 - Stabilnoœæ =
+====================
+Dla transmitacji operatorowej 1.20 Uklad jest stabilny, poniewaz zgodnie z kryterium Nyquista, wykres nie obejmuje punktu (-1, 0) na plaszczyznie zespolonej.
+Dla transmitacji operatorowej 1.21 Uklad jest niestabilny, poniewaz wykres obejmuje punkt (-1, 0) na plaszczyznie zespolonej.
+
+
+================
+ZAD 3 - Filtry =
+================
+Podczas zmiany filtrów zmieniaj¹ siê: amplituda, wzmocnienie i faza.
+    # filtr dolnoprzepustowy: 
+	— sygna³y z du¿¹ czêstotliwoœci¹ s¹ t³umione, zmniejszona amplituda (wykres 2,3,5),
+	— przepuszcza sygna³y o czêstotliwosci poni¿ej czestotliwosci granicznej (wykres 1,4),
+	— z wykresu bode widzimy, ze tluminie sygnalu rozpoczyna sie w okolicy czestotliwosci 10^-1 rad/s,
+	— ponizej czewstotliwosci 10^-1 rad/s aplituda sygnalu sie nie zmienia,
+	— powyzej czestotliwosci 10^-1 rad/s sygnal jest powoli coraz bardziej tlumiony,
+	— najwieksze przesuniecie fazowe wystêpuje dla najwyzszych czêstotliwosci, siêga wartosci -90 st.
+
+    # filtr górnoprzepustowy: 
+ 	— sygna³y z ma³¹ czêstotliwoœci¹ s¹ t³umione, zmniejszona amplituda (wykres 1,4),
+	— filtr przepuszcza sygnaly powyzej czestotliwosci granicznej (wykres 2,3,5).
+	— Z wykresu bode widac ze niskie czestotliwosci sa tlumione,
+	— ponizej czestotliwosci 10 rad/s przepustowosc sygnalu zaczyna spadac, im mniejsza czestotliwosc tym mniej jest przepuszczane,
+	— dla niskich czestotliwosci wystepuje duze przesuniecie fazowe , im wieksza czestotliwosc tym przesuniecie fazowe spada.
+
+    # filtr pasmoprzepusty: 
+	— sygna³y z bardzo ma³¹ i bardzo du¿¹ czêstotliwoœci¹ s¹ t³umione, zmniejszona amplituda  (wykres 1,3,4,5)
+	— dla wykresu 1 i 4. Mozna zaobserwowac pik w czasie pierwszych 5 sekund, po tym czasie Amplituda zbiega do wartosci 0.
+	— dla wykresu 2  mozna zaobserowowaæ lekkie tlumienie sygna³u (natomiast biorac pod uwage wykres bode jest to najmniejsze mozliwe tlumienie),
+	— z wykresu bode widzimy, ¿e dla sygna³ów z czêstotliwoœci¹ 1 rad/s i blisko 1 rad/s prawie nie s¹ t³umione a tak¿e ich przesuniêcie fazowe jest równe prawie 0,
+	— natomiast przesuniecie fazowe dochodzi nawet 90 st- zarowno przy bardzo nisich czestotliwosciach i bardzo wysokich.
+	
+   # filtru drugiego rzêdu:
+ 	— sygna³y mniejsze od 1 nie s¹ t³umione (mimo ¿e widaæ ¿e pocz¹tkowe piki s¹ wiêksze ni¿ wartoœæ sygna³u, natomiast wraz z up³ywem czasu zbiegaj¹ do niego) 
+	— bliskie 1 wzmacnia, 
+	— wiêksze od 1 t³umi,
+	— na wykresiego bode widzimy , ¿e wysokie czêstotliwoœci sa t³umione, a czêstotliwoœæ 1 rad/s jest podbijana. 
+	— brak przesuniêcia fazowego dla czêstotliwoœci < 1 rad/s,
+	— przesuniêcie fazowe najszybciej zaczyna rosn¹æ dla czêstotliwoœci minimalnie powy¿ej 1 rad/s, siêgaj¹c nawet -180 st.
+
+============
+ZAD 4 - RC =
+============
+
+		MATLAB SKRYPT

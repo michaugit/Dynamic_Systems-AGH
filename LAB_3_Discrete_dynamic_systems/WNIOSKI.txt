@@ -1,0 +1,38 @@
+ZADANIE 1 ANALIZA RÓWNANIA LINIOWEGO:
+lambda < -1  -  System Dyskretny: wartoœci rozchodz¹ siê na przemian do nieskoñczonoœci, oraz -nieskoñczonoœci, system jest niestabilny, wystepuj¹ oscylacje;
+		System Ci¹g³y: system stabilny asymptotycznie, wartoœci zbiegaj¹ od WPC(Waruneku pocz¹tkowego) do 0;
+
+lambda = -1  -  System Dyskretny: system niestabilny, wartosci na wykresie to na przemian wartosci WPC i -WPC, czyli uklad oscyluje pomiedzy WPC i - WPC;
+		System Ci¹g³y: system stabilny asymptotycznie, wartoœci zbiegaj¹ od WPC do 0;
+
+lambda (-1;0)  - System Dyskretny: system stabilny asymptotycznie, oscyluje zbiegajac asymptotycznie do zera;
+		 System Ci¹g³y: system stabilny asymptotycznie, wartoœci zbiegaj¹ od WPC do 0;
+
+lambda = 0  -  System Dyskretny: system asymptotycznie stabilny, poza WPC wartosci sa rowne 0;
+	       System Ci¹g³y: system stabilny, jego wartoœæ przez ca³y czas jest równa WPC;
+
+lambda (0;1)  - System Dyskretny: system asymptotycznie stabilny, wartoœci maleja zbiegajac do 0, brak oscylacji;
+		System Ci¹g³y: system niestabilny, wartoœci rosn¹ do nieskoñczonoœci;
+
+lambda = 1  -  System Dyskretny:system stabilny, dla ka¿dej wartoœci przyjmuje wartoœæ WPC;
+	       System Ci¹g³y: system niestabilny, wartoœci rosn¹ do nieskoñczonoœci;
+
+lambda > 1  -  System Dyskretny:system niestabilny, nie wystêpuj¹ oscylacje, wartoœci rosn¹ do nieskonczonosci;
+	       System Ci¹g³y: system niestabilny, wartoœci rosn¹ do nieskoñczonoœci;
+
+=> System Dyskretny jest asymptotycznie stabilny, jeœli wartoœci w³asne macierzy A le¿¹ w kole jednostkowym  (w przypadku liczb rzeczywistych -1 < lambda < 1 ),
+=> System Ci¹g³y jest astymptotycznie stabilny tylko gdy czêœæ rzeczywista wartoœci w³asnych macierzy A jest mniejsza od 0;
+
+ZADANIE 2 - UK£AD DYSKRETNO-CI¥G£Y:
+Jak widaæ na uzyskanym wykresie => uk³ad dyskretny w chwilach ih równowa¿y siê z uk³adem ci¹g³ym - przyjmuj¹ te same wartoœci;
+
+ZADANIE 3 - KAPITALIZACJA ODSETEK:
+”W praktyce im czêœciej bank dopisuje odsetkido salda lokaty, tym lepiej dla klienta"
+Jak widaæ na uzyskanym wykresie, czym czêstsza jest kapitalizacja odsetek, tym wiêcej w ci¹gu np 10 lat zarobimy startuj¹c z tego samego stanu konta np:
+Zak³adaj¹c, ¿e mamy pocz¹tkowo 10 000, odk³adaj¹c je na lokatê oprocentowan¹ na 4%:
+-gdy kapitalizacja odsetek nastêpuje raz na rok => po 10 latach uzbieramy "jedynie" 14 800,
+-natomiast gdy kaptializacja by³aby co 0,2 roku tzn co 2,4 miesi¹ca => po okresie te¿ 10 lat na naszym koncie znajdowa³oby siê ju¿ 71 070 ;)
+
+ZADANIE 4 - METODA NEWTONA-RAPHSONA
+Metoda Newtona-Raphsona umo¿liwia wyznaczenie pierwiastków wielomianu.
+Dla W(x)=x^3-2*x^2-11*x+12 wyznaczone pierwiastki to x0={-3, 1, 4}

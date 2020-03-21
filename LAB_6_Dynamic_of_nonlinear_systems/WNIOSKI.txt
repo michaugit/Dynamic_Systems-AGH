@@ -1,0 +1,37 @@
+############
+Zadanie 1: #
+############
+Zamodelowano Oscylator Van Der Pola, oraz system Lorenza.
+Wykonano 2 wykresy z portretami fazowymi:
+- w przypadku oscylatora Van Der Pola, portret fazowy z widocznym cyklem granicznym, w ktorym mo¿na zaobserwowac zageszczenie trajektorii,
+- w przypadku systemu Lorenza widzimy specyficzny kszta³t "efektu motyla".
+
+
+############
+Zadanie 2: #
+############
+W zale¿noœci od wartoœci epsilon portret fazowy zmienia swój kszta³t, co moze skutkowac w zmianie wlasciwosci systemu
+nieliniowego.
+- W przypadku wartosci 0 portret ma szczegolny wyglad sa to wartosci zbiegajace do srodka ukladu, poniewaz druga czesc rowniania zeruje
+sie nie zauwazamy cyklu granicznego, 
+- Dla wartosci epsilon > 0 kola deformuja sie (wyginaja), druga czesc rownania zalezna od epsilon nie znika jak w pierwszym przypadku, dlatego mo¿na wskazac cykl graniczny, w ktorym mozna zaobserwowac zageszczenie trajektorii.
+- W przypadku epsilon < 0 uklad staje sie niestabilny, kola z przypadku epsilon = 0 po zmianie rozjezdzaja sie tracac stabilne wlasciwosci co powoduje rowniez utrate cyklu.
+
+############
+Zadanie 3: # rownanie x'(t) = ax - x^3
+############
+Punkty równowagi to pierwiastki równania ax-x^3=0 równe: x=0, x=sqrt(a) oraz x=-sqrt(a). 
+
+Dla rownania otrzymujemy macierz Jacobiego postaci : a-3x^2.
+
+Dla pierwszego przypadku x = 0, wyrazenie przyjmuje postac f(x) = a, dla a < 0 punkt równowagi asymptotycznie stabilny.
+
+Dla przypadku drugiego x = sqrt(a), wyrazenie przyjmuje postac f(x) = -2a, dla a>0 jest asymptotycznie stabilny.
+
+Analogicznie dla trzeciego przypadku x = -sqrt(a), wyrazenie przyjmuje postac f(x) = -2a, i tutaj powtarza sie sytuacja, przy wartosciach a>0 mamy asymptotycznie stabilne punkty rownowagi.
+
+############
+Zadanie 4: #
+############
+Nale¿y uruchomiæ skrypt i obserwowaæ ;)
+Ciekawe trajektorie uzyskujemy poprzez dobor wartosci ro, r i b oraz wartosci poczatkowych.

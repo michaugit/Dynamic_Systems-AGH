@@ -1,0 +1,21 @@
+ZADANIE 1:
+Model opisuje zmianê napiêcia (roz³adowywanie siê) na kondensatorze w obwodzie RC, zaczynaj¹c z napiêciem V=WPC, na kondensatorze o pojemnoœci C i rezystorem o oporze R.
+Jeœli napiêcie sterowanie jest równe 0 przez ca³y czas to  nie ma ¿adnego wp³ywu na system.
+
+ZADANIE 2:
+- Model pokazuje obwód ze Ÿród³em pr¹du sta³ego
+- Kondensator ³aduje siê asymptotycznie,
+- Napiêcie na kondensatorze bêdzie równe napiêciu Ÿród³a w „nieskoñczonym czasie”- d¹¿y do niego.
+
+Zadanie 3:
+- Model pokazuje obwód ze Ÿród³em pr¹du sta³ego
+- Kondensator jest na³adowany napiêciem WPC,
+- Napiêcie na kondensatorze z czasem zbli¿y siê do napiêcia Ÿród³a, bêdzie równe napiêciu Ÿród³a w „nieskoñczonym czasie”- d¹¿y do niego.
+
+Zadanie 4:
+- Model pokazuje obwód ze Ÿród³em pr¹du, który zmienia siê w czasie 5 sekundy.
+- Kondensator pocz¹tkowo jest pusty.
+- Napiêcie na kondensatorze z czasem zbli¿a siê do napiêcia Ÿród³a, ale po odciêciu Ÿród³a zasilania, w 5 sekundzie napiêcie kondensatora zaczyna spadaæ do 0.
+
+Zadanie 5:
+-Napiêcie kondensatora zbli¿a siê do œredniej napiêcia Ÿród³owego i "próbuje pod¹¿aæ" za zmianami napiêcia w czasie.

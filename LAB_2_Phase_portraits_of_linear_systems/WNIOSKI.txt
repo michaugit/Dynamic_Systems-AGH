@@ -1,0 +1,74 @@
+1. Podwójna wartoœæ w³asna 0,  dzielnik liniowy, dla macierzy: J=[0,0;0,0]
+-System stabilny,
+-Wykres nie przedstawia ¿adnego punktu,
+-portret zerowy
+-Zmiana wektrów w³asnych nie wp³ywa wykres,
+-W tym przypadku nie mo¿emy zmieniæ wartoœci w³asnych, poniewa¿ s¹ one z góry ustalone.
+
+2. Podwójna wartoœæ w³asna 0, dzielnik nieliniowy, dla macierzy: J=[0,1;0,0];
+-System stabilny
+gdy wektory w³asne to macierz jednostkowa:
+-Wykres przedstawia linie równoleg³e do osi OX (a zarazem równleg³e do pierwszego wektora w³asnego), oraz dwa punkty na osi OX
+gdy wektory w³asne inne ni¿ macierz jednostkowa:
+-Wykres przedstawia równoleg³e linie do pierwszego wektora w³asnego z macierzy P.
+-W tym przypadku nie mo¿emy zmieniæ wartoœci w³asnych, poniewa¿ s¹ one z góry ustalone.
+
+3. Wartoœæ w³asna_1 < 0, w³asna_2 = 0, dla macierzy: J=[-1,0;0,0];
+-System stabilny
+gdy wektory w³asne to macierz jednostkowa:
+-Wykres przestawia równoleg³e linie do osi OX (a zarazem do pierwszego wektorwa w³asnego z macierzy P),
+gdy wektory w³asne inne:
+-Wykres przedstawia równoleg³e linie do pierwszego wektora w³asnego z macierzy P.
+
+-brak zmiany portretu fazowego przy zmianie wartoœci w³asnej (na coraz mniejsz¹)
+
+4. Wartoœæ w³asna_1<0 w³asna_2<0, dla macierzy: J=[-2,0;0,-1];
+-System stabilny,
+-Punkt równowagi wêze³,
+-Wykres przedstawia krzywe (na wzór paraboli) biegn¹ce do pocz¹tku uk³adu wspó³rzêdnych.
+-Zmiana wektorów w³asnych z macierzy na jednostkowej zmienia trajektoriê biegu krzywych, s¹ bardziej "wygiête".
+-Wraz ze zmniejszaniem siê wartoœci odleg³oœci miêdzy krzywymi wyrównuj¹ siê.
+
+
+5. Wartoœæ w³asna podwójna < 0, dzielnik nieliniowy, dla macierzy J=[-1,1;0,-1]
+-System stabilny,
+-Punkt równowagi wêze³ zdegenerowany,
+-Wykres przedstawia krzywe biegn¹ce do pocz¹tku uk³adu wspó³rzêdnych.
+-Zmiana wektorów w³asnych z macierzy jednostkowej na inne zmienia trajektoriê biegu krzywych, s¹ bardziej "wygiête".
+-Wraz ze zmniejszaniem siê wartoœci w³asnych odleg³oœci miêdzy krzywymi ulegaj¹ zmianie.
+
+6. Wartoœæ w³asna podwójna < 0 dzielnik liniowy, dla macierzy J=[-1,0;0,-1]
+-System stabilny,
+-Punkt równwagi wêze³ gwiaŸdzisty,
+-Wykres przedstawia proste biegn¹ce do pocz¹tku uk³ady wspó³rzêdnych.
+-Zmiana wektorów w³asnych z macierzy na jednostkowej nie wp³ywa na trajektoriê, nadal s¹ to proste.
+-Zmiana wartoœci w³asnej nie powduje zmiany portretu fazowego.
+
+7. Wartoœæ w³asna_1 > 0  w³asna_2 < 0, dla macierzy J=[-1,0;0,1]
+-System niestabilny,
+-tzw siod³o,
+-Wykresem s¹ hiperbole,
+-Wartoœci maj¹ przeciwne znaki, zatem system nie jest stabilny.
+-Zmiana wektrów w³asnych wp³ywa na trajektoriê hiperbol.
+-Zmiana wartoœci w³asnych znacz¹co wp³ywa portret fazowy (zostaje sp³aszczony)
+
+8. Para sprzê¿ona Re=0, dla macierzy J=[0,1;-1,0];
+-System stabilny, 
+-Punkt równowagi centrum
+-Wykres przedstawia okrêgi o wspólnym œrodku,
+-Zmiana macierzy wektrów w³asnych na inne ni¿ macierz jednostkowa wp³ywa na kszta³t wykresu - z kó³ robi¹ siê elipsy
+-Zmiana wartoœci w³asnych (czêœci urojonej) nie wp³ywa na portret fazowy,
+
+9. Para sprzê¿ona Re<0, dla macierzy J=[-1,1;-1,-1]
+-System stabilny, 
+-Punkt równowagi ognisko,
+-Wykres przedstawia spiralne krzywe zbiegaj¹ce do œrodka,
+-Zmiana macierzy wektrów w³asnych na inne ni¿ macierz jednostkowa wp³ywa na kszta³t trajektorii.
+-Zmiana wartoœci w³asnej zespolonej nie wp³ywa na portret fazowy.
+
+Warunki pocz¹tkowe domyœlnie dla ka¿dego systemu generowane s¹ na dwa sposoby:
+-na wykresie po lewej stronie, punkty le¿¹ na okrêgu jednostkowym o œrodku w (0,0) 
+=> WPC(1)= sin(X), WPC(2) = cos(x)
+-na wykresie po prawej stronie, punkty le¿¹ na brzegu kwadratu o boku 1 i œrodku w (0,0)
+=> WPC(1)= cos(x)/p(x), WPC(2)= sin(x)/p(x), p(x)= max(|sin(x)|,|cos(x)|) 
+(natomiast najlepiej jest je ustaliæ w zale¿noœci od badanego systemu)
